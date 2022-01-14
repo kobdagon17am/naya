@@ -3,7 +3,7 @@
 
 <head>
     @include('layout.inc_header')
-    <title>NAYA GREEN - หน้าหลัก</title>
+    <title>@yield('title')</title>
     @yield('style')
 </head>
 

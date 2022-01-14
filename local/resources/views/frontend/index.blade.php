@@ -1,4 +1,11 @@
 @extends('main.maindash')
+@section('title')
+ืืNAYA GREEN - หน้าหลัก
+@endsection
+
+@section('style')
+@endsection
+
 @section('mainbody')
     <div class="">
         <div class="container-fluid">
@@ -326,4 +333,7 @@
             </div>
         </div>
     </div>
+    @section('js')
+    @endsection
+
     @endsection

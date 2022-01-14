@@ -1,56 +1,57 @@
-<!doctype html>
-<html lang="th">
-<head>      
-    <title>NAYA GREEN - สำรักงานตัวแทน</title>
-    <?php require('inc_header.php'); ?>  
-</head>
-<body>
-    <?php require('inc_navbar.php'); ?>
-    <div class="bg-headG">
-        <div class="container-fluid">
-            <div class="titlePage">
-                <div class="caption">
-                    <h1>สำนักงานตัวแทน</h1>
-                    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-                      <ol class="breadcrumb justify-content-center mb-0">
+@extends('main.maindash')
+@section('title')
+NAYA GREEN - สำนักงานตัวแทน
+@endsection
+
+@section('style')
+@endsection
+
+@section('mainbody')
+<div class="bg-headG">
+    <div class="container-fluid">
+        <div class="titlePage">
+            <div class="caption">
+                <h1>สำนักงานตัวแทน</h1>
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center mb-0">
                         <li class="breadcrumb-item"><a href="index.php">หน้าหลัก</a></li>
                         <li class="breadcrumb-item active" aria-current="page">สำนักงานตัวแทน</li>
-                      </ol>
-                    </nav>
-                </div>
+                    </ol>
+                </nav>
             </div>
         </div>
     </div>
-    <div class="bg-light">
-        <div class="container container-small py-4">
-            <div class="row">
-                <div class="col-sm-12">
-                    <ul class="nav nav-pills justify-content-center nav-fill" id="pills-tabOffice" role="tablist">
-                      <li class="nav-item" role="presentation">
+</div>
+<div class="bg-light">
+    <div class="container container-small py-4">
+        <div class="row">
+            <div class="col-sm-12">
+                <ul class="nav nav-pills justify-content-center nav-fill" id="pills-tabOffice" role="tablist">
+                    <li class="nav-item" role="presentation">
                         <button class="nav-link active" id="pills-central-tab" data-bs-toggle="pill" data-bs-target="#pills-central" type="button" role="tab" aria-controls="pills-central" aria-selected="true">ภาคกลาง</button>
-                      </li>
-                      <li class="nav-item" role="presentation">
+                    </li>
+                    <li class="nav-item" role="presentation">
                         <button class="nav-link" id="pills-northern-tab" data-bs-toggle="pill" data-bs-target="#pills-northern" type="button" role="tab" aria-controls="pills-northern" aria-selected="false">ภาคเหนือ</button>
-                      </li>
-                      <li class="nav-item" role="presentation">
+                    </li>
+                    <li class="nav-item" role="presentation">
                         <button class="nav-link" id="pills-northeastern-tab" data-bs-toggle="pill" data-bs-target="#pills-northeastern" type="button" role="tab" aria-controls="pills-northeastern" aria-selected="false">ภาคตะวันออกเฉียงเหนือ</button>
-                      </li>
-                      <li class="nav-item" role="presentation">
+                    </li>
+                    <li class="nav-item" role="presentation">
                         <button class="nav-link" id="pills-bangkokSurrounding-tab" data-bs-toggle="pill" data-bs-target="#pills-bangkokSurrounding" type="button" role="tab" aria-controls="pills-bangkokSurrounding" aria-selected="false">กรุงเทพฯและปริมลฑล</button>
-                      </li>    
-                    </ul>
-                </div>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
-    <div class="bg-white">
-        <div class="container container-main py-4 py-xl-5">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="tab-content" id="pills-tabContent">
-                      <div class="tab-pane fade show active" id="pills-central" role="tabpanel" aria-labelledby="pills-central-tab">
+</div>
+<div class="bg-white">
+    <div class="container container-main py-4 py-xl-5">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-central" role="tabpanel" aria-labelledby="pills-central-tab">
                         <h4 class="text-center fw-normal">สำนักงานตัวแทน NAYA GREEN ภาคกลาง</h4>
-                        <div class="linegreenY"></div>  
+                        <div class="linegreenY"></div>
                         <div class="row justify-content-center">
                             <div class="col-md-6 col-lg-3">
                                 <div class="card rounded-0 p-3 text-center mb-3">
@@ -214,11 +215,11 @@
                                     <a href="" class="btn btn-icon btn-green"><i class="fab fa-line"></i></a>
                                 </div>
                             </div>
-                        </div>    
-                      </div>
-                      <div class="tab-pane fade" id="pills-northern" role="tabpanel" aria-labelledby="pills-northern-tab">
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-northern" role="tabpanel" aria-labelledby="pills-northern-tab">
                         <h4 class="text-center fw-normal">สำนักงานตัวแทน NAYA GREEN ภาคเหนือ</h4>
-                        <div class="linegreenY"></div>  
+                        <div class="linegreenY"></div>
                         <div class="row justify-content-center">
                             <div class="col-md-6 col-lg-3">
                                 <div class="card rounded-0 p-3 text-center mb-3">
@@ -257,10 +258,10 @@
                                 </div>
                             </div>
                         </div>
-                      </div>
-                      <div class="tab-pane fade" id="pills-northeastern" role="tabpanel" aria-labelledby="pills-northeastern-tab">
+                    </div>
+                    <div class="tab-pane fade" id="pills-northeastern" role="tabpanel" aria-labelledby="pills-northeastern-tab">
                         <h4 class="text-center fw-normal">สำนักงานตัวแทน NAYA GREEN ภาคตะวันออกเฉียงเหนือ</h4>
-                        <div class="linegreenY"></div> 
+                        <div class="linegreenY"></div>
                         <div class="row justify-content-center">
                             <div class="col-md-6 col-lg-3">
                                 <div class="card rounded-0 p-3 text-center mb-3">
@@ -289,11 +290,11 @@
                                     <a href="" class="btn btn-icon btn-green"><i class="fab fa-line"></i></a>
                                 </div>
                             </div>
-                        </div>  
-                      </div>
-                      <div class="tab-pane fade" id="pills-bangkokSurrounding" role="tabpanel" aria-labelledby="pills-bangkokSurrounding-tab">
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-bangkokSurrounding" role="tabpanel" aria-labelledby="pills-bangkokSurrounding-tab">
                         <h4 class="text-center fw-normal">สำนักงานตัวแทน NAYA GREEN กรุงเทพฯและปริมลฑล</h4>
-                        <div class="linegreenY"></div> 
+                        <div class="linegreenY"></div>
                         <div class="row justify-content-center">
                             <div class="col-md-6 col-lg-3">
                                 <div class="card rounded-0 p-3 text-center mb-3">
@@ -313,14 +314,14 @@
                                     <a href="" class="btn btn-icon btn-green"><i class="fab fa-line"></i></a>
                                 </div>
                             </div>
-                        </div>  
-                      </div>    
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <?php require('inc_footer.php'); ?>
-    
-</body>
-</html>    
+</div>
+@section('js')
+@endsection
+
+@endsection

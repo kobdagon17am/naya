@@ -1,4 +1,6 @@
     @include('layout.inc_footer')
+    @yield('js')
+    
     <script>
         $('#linkMenuTop .nav-item').eq(0).addClass('active');
     </script>
