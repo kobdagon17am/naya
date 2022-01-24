@@ -18,6 +18,12 @@ class NewsController extends Controller
         return view('frontend.news');
     }
 
+    public function detail()
+    {
+        //
+        return view('frontend.news-detail');
+    }
+
     /**
      * Show the form for creating a new resource.
      *

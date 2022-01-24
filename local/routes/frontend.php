@@ -25,9 +25,10 @@ Route::get('/', function () {
 });
 
 // Route::get('/home', 'HomeController@index');
-Route::get('/home',[HomeController::class, 'index']);
+Route::get('/',[HomeController::class, 'index']);
 Route::get('/about',[AboutController::class, 'index']);
 Route::get('/news',[NewsController::class, 'index']);
+Route::get('/news-detail',[NewsController::class, 'detail']);
 Route::get('/product',[ProductController::class, 'index']);
 Route::get('/opportunity',[OpportunityController::class, 'index']);
 Route::get('/office',[OfficeController::class, 'index']);

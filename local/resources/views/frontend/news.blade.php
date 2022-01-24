@@ -15,12 +15,14 @@
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
           <ol class="breadcrumb justify-content-center mb-0">
             <li class="breadcrumb-item"><a href="index.php">หน้าหลัก</a></li>
+            <!-- <img src="" class="breadcrumb-item" alt="..."> -->
             <li class="breadcrumb-item active" aria-current="page">ข่าวสารและโปรโมชั่น</li>
           </ol>
-        </nav>
       </div>
+      </nav>
     </div>
   </div>
+</div>
 </div>
 <div class="bg-light">
   <div class="container container-main py-4 py-xl-5">
@@ -29,73 +31,73 @@
         <div class="row">
           <div class="col-md-6">
             <div class="card card-news">
-              <img src="images/news/n01.png" class="card-img-top" alt="...">
+              <img src="images/news/news.webp" class="card-img-top" alt="...">
               <div class="card-body">
                 <div class="dateNews">11 กันยายน 2563</div>
                 <p class="tagCate"><i class="fas fa-tags"></i> <span class="text-muted">โปรโมชั่น</span></p>
                 <h5 class="card-title">โปรโมชั่นประจำเดือน ตุลาคม #NayaGreen Promotion</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A scelerisque purus semper eget duis at tellus at. Sagittis orci a scelerisque purus. Pulvinar mattis nunc sed blandit libero volutpat sed. Praesent tristique magna sit amet purus gravida quis blandit. </p>
-                <a href="news-detail.php" class="btn btn-outline-dark rounded-0 stretched-link">อ่านเพิ่มเติม</a>
+                <a href="{{url('news-detail')}}" class="btn btn-outline-dark rounded-0 stretched-link">อ่านเพิ่มเติม</a>
               </div>
             </div>
           </div>
           <div class="col-md-6">
             <div class="card card-news">
-              <img src="images/news/n01.png" class="card-img-top" alt="...">
+              <img src="images/news/news.webp" class="card-img-top" alt="...">
               <div class="card-body">
                 <div class="dateNews">11 กันยายน 2563</div>
                 <p class="tagCate"><i class="fas fa-tags"></i> <span class="text-muted">โปรโมชั่น</span></p>
                 <h5 class="card-title">โปรโมชั่นประจำเดือน ตุลาคม #NayaGreen Promotion</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A scelerisque purus semper eget duis at tellus at. Sagittis orci a scelerisque purus. Pulvinar mattis nunc sed blandit libero volutpat sed. Praesent tristique magna sit amet purus gravida quis blandit. </p>
-                <a href="news-detail.php" class="btn btn-outline-dark rounded-0 stretched-link">อ่านเพิ่มเติม</a>
+                <a href="{{url('news-detail')}}" class="btn btn-outline-dark rounded-0 stretched-link">อ่านเพิ่มเติม</a>
               </div>
             </div>
           </div>
           <div class="col-md-6">
             <div class="card card-news">
-              <img src="images/news/n01.png" class="card-img-top" alt="...">
+              <img src="images/news/news.webp" class="card-img-top" alt="...">
               <div class="card-body">
                 <div class="dateNews">11 กันยายน 2563</div>
                 <p class="tagCate"><i class="fas fa-tags"></i> <span class="text-muted">โปรโมชั่น</span></p>
                 <h5 class="card-title">โปรโมชั่นประจำเดือน ตุลาคม #NayaGreen Promotion</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A scelerisque purus semper eget duis at tellus at. Sagittis orci a scelerisque purus. Pulvinar mattis nunc sed blandit libero volutpat sed. Praesent tristique magna sit amet purus gravida quis blandit. </p>
-                <a href="news-detail.php" class="btn btn-outline-dark rounded-0 stretched-link">อ่านเพิ่มเติม</a>
+                <a href="{{url('news-detail')}}" class="btn btn-outline-dark rounded-0 stretched-link">อ่านเพิ่มเติม</a>
               </div>
             </div>
           </div>
           <div class="col-md-6">
             <div class="card card-news">
-              <img src="images/news/n01.png" class="card-img-top" alt="...">
+              <img src="images/news/news.webp" class="card-img-top" alt="...">
               <div class="card-body">
                 <div class="dateNews">11 กันยายน 2563</div>
                 <p class="tagCate"><i class="fas fa-tags"></i> <span class="text-muted">โปรโมชั่น</span></p>
                 <h5 class="card-title">โปรโมชั่นประจำเดือน ตุลาคม #NayaGreen Promotion</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A scelerisque purus semper eget duis at tellus at. Sagittis orci a scelerisque purus. Pulvinar mattis nunc sed blandit libero volutpat sed. Praesent tristique magna sit amet purus gravida quis blandit. </p>
-                <a href="news-detail.php" class="btn btn-outline-dark rounded-0 stretched-link">อ่านเพิ่มเติม</a>
+                <a href="{{url('news-detail')}}" class="btn btn-outline-dark rounded-0 stretched-link">อ่านเพิ่มเติม</a>
               </div>
             </div>
           </div>
           <div class="col-md-6">
             <div class="card card-news">
-              <img src="images/news/n01.png" class="card-img-top" alt="...">
+              <img src="images/news/news.webp" class="card-img-top" alt="...">
               <div class="card-body">
                 <div class="dateNews">11 กันยายน 2563</div>
                 <p class="tagCate"><i class="fas fa-tags"></i> <span class="text-muted">โปรโมชั่น</span></p>
                 <h5 class="card-title">โปรโมชั่นประจำเดือน ตุลาคม #NayaGreen Promotion</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A scelerisque purus semper eget duis at tellus at. Sagittis orci a scelerisque purus. Pulvinar mattis nunc sed blandit libero volutpat sed. Praesent tristique magna sit amet purus gravida quis blandit. </p>
-                <a href="news-detail.php" class="btn btn-outline-dark rounded-0 stretched-link">อ่านเพิ่มเติม</a>
+                <a href="{{url('news-detail')}}" class="btn btn-outline-dark rounded-0 stretched-link">อ่านเพิ่มเติม</a>
               </div>
             </div>
           </div>
           <div class="col-md-6">
             <div class="card card-news">
-              <img src="images/news/n01.png" class="card-img-top" alt="...">
+              <img src="images/news/news.webp" class="card-img-top" alt="...">
               <div class="card-body">
                 <div class="dateNews">11 กันยายน 2563</div>
                 <p class="tagCate"><i class="fas fa-tags"></i> <span class="text-muted">โปรโมชั่น</span></p>
                 <h5 class="card-title">โปรโมชั่นประจำเดือน ตุลาคม #NayaGreen Promotion</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A scelerisque purus semper eget duis at tellus at. Sagittis orci a scelerisque purus. Pulvinar mattis nunc sed blandit libero volutpat sed. Praesent tristique magna sit amet purus gravida quis blandit. </p>
-                <a href="news-detail.php" class="btn btn-outline-dark rounded-0 stretched-link">อ่านเพิ่มเติม</a>
+                <a href="{{url('news-detail')}}" class="btn btn-outline-dark rounded-0 stretched-link">อ่านเพิ่มเติม</a>
               </div>
             </div>
           </div>
@@ -141,10 +143,10 @@
           <hr>
           <div class="px-3 pb-3">
             <h5 class="fw-normal">ข่าวสารล่าสุด</h5>
-            <a href="news-detail.php" class="link-newRecent">
+            <a href="{{url('news-detail')}}" class="link-newRecent">
               <div class="d-flex box-recent mb-3">
                 <div class="flex-shrink-0">
-                  <img src="images/news/n01.png" alt="...">
+                  <img src="images/news/news.webp" alt="...">
                 </div>
                 <div class="flex-grow-1 ms-3">
                   <h5>โปรโมชั่นประจำเดือน ตุลาคม #NayaGreen Promotion</h5>
@@ -152,10 +154,10 @@
                 </div>
               </div>
             </a>
-            <a href="news-detail.php" class="link-newRecent">
+            <a href="{{url('news-detail')}}" class="link-newRecent">
               <div class="d-flex box-recent mb-3">
                 <div class="flex-shrink-0">
-                  <img src="images/news/n01.png" alt="...">
+                  <img src="images/news/news.webp" alt="...">
                 </div>
                 <div class="flex-grow-1 ms-3">
                   <h5>โปรโมชั่นประจำเดือน ตุลาคม #NayaGreen Promotion</h5>
@@ -163,10 +165,10 @@
                 </div>
               </div>
             </a>
-            <a href="news-detail.php" class="link-newRecent">
+            <a href="{{url('news-detail')}}" class="link-newRecent">
               <div class="d-flex box-recent mb-3">
                 <div class="flex-shrink-0">
-                  <img src="images/news/n01.png" alt="...">
+                  <img src="images/news/news.webp" alt="...">
                 </div>
                 <div class="flex-grow-1 ms-3">
                   <h5>โปรโมชั่นประจำเดือน ตุลาคม #NayaGreen Promotion</h5>
