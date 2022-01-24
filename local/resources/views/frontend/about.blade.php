@@ -1,6 +1,6 @@
 @extends('main.maindash')
 @section('title')
-ืNAYA GREEN - เกี่ยวกับเรา
+NAYA GREEN - เกี่ยวกับเรา
 @endsection
 
 @section('style')

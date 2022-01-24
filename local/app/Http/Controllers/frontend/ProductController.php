@@ -18,6 +18,12 @@ class ProductController extends Controller
         return view('frontend.products');
     }
 
+    public function detail()
+    {
+        //
+        return view('frontend.product-detail');
+    }
+
     /**
      * Show the form for creating a new resource.
      *

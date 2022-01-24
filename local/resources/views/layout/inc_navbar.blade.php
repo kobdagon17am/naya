@@ -44,7 +44,7 @@
               <a class="nav-link" href="{{url('news')}}">ข่าวสารและโปรโมชั่น</a>
             </li> 
             <li class="nav-item">
-              <a class="nav-link" href="{{url('product')}}">ผลิตภัณฑ์</a>
+              <a class="nav-link" href="{{url('products')}}">ผลิตภัณฑ์</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{{url('opportunity')}}">โอกาสทางธุรกิจ</a>

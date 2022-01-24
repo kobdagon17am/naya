@@ -1,6 +1,6 @@
 @extends('main.maindash')
 @section('title')
-ืืNAYA GREEN - หน้าหลัก
+NAYA GREEN - หน้าหลัก
 @endsection
 
 @section('style')

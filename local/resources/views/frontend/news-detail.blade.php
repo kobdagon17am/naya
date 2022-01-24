@@ -1,6 +1,6 @@
 @extends('main.maindash')
 @section('title')
-ืNAYA GREEN - ข่าวสารและโปรโมชั่น
+NAYA GREEN - ข่าวสารและโปรโมชั่น
 @endsection
 
 @section('style')
@@ -80,28 +80,6 @@
           <hr>
           <div class="px-3 pb-3">
             <h5 class="fw-normal">ข่าวสารล่าสุด</h5>
-            <a href="{{url('news-detail')}}" class="link-newRecent">
-              <div class="d-flex box-recent mb-3">
-                <div class="flex-shrink-0">
-                  <img src="images/news/news.webp" alt="...">
-                </div>
-                <div class="flex-grow-1 ms-3">
-                  <h5>โปรโมชั่นประจำเดือน ตุลาคม #NayaGreen Promotion</h5>
-                  <p class="fs-12 mb-0 text-muted">11 กันยายน 2563</p>
-                </div>
-              </div>
-            </a>
-            <a href="{{url('news-detail')}}" class="link-newRecent">
-              <div class="d-flex box-recent mb-3">
-                <div class="flex-shrink-0">
-                  <img src="images/news/news.webp" alt="...">
-                </div>
-                <div class="flex-grow-1 ms-3">
-                  <h5>โปรโมชั่นประจำเดือน ตุลาคม #NayaGreen Promotion</h5>
-                  <p class="fs-12 mb-0 text-muted">11 กันยายน 2563</p>
-                </div>
-              </div>
-            </a>
             <a href="{{url('news-detail')}}" class="link-newRecent">
               <div class="d-flex box-recent mb-3">
                 <div class="flex-shrink-0">

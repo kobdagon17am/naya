@@ -52,7 +52,7 @@ NAYA GREEN - ผลิตภัณฑ์
             <div class="row justify-content-center">
               <div class="col-md-6 col-lg-3">
                 <div class="product-box mb-5">
-                  <a href="product-detail.php">
+                  <a href="{{url('products-detail')}}">
                     <div class="ratio ratio-1x1 mb-3">
                       <div class="content-overlay"></div>
                       <img src="images/products/pd01.png">
@@ -66,7 +66,7 @@ NAYA GREEN - ผลิตภัณฑ์
               </div>
               <div class="col-md-6 col-lg-3">
                 <div class="product-box mb-5">
-                  <a href="product-detail.php">
+                  <a href="{{url('products-detail')}}">
                     <div class="ratio ratio-1x1 mb-3">
                       <div class="content-overlay"></div>
                       <img src="images/products/pd02.png">
@@ -80,7 +80,7 @@ NAYA GREEN - ผลิตภัณฑ์
               </div>
               <div class="col-md-6 col-lg-3">
                 <div class="product-box mb-5">
-                  <a href="product-detail.php">
+                  <a href="{{url('products-detail')}}">
                     <div class="ratio ratio-1x1 mb-3">
                       <div class="content-overlay"></div>
                       <img src="images/products/pd03.png">
@@ -94,7 +94,7 @@ NAYA GREEN - ผลิตภัณฑ์
               </div>
               <div class="col-md-6 col-lg-3">
                 <div class="product-box mb-5">
-                  <a href="product-detail.php">
+                  <a href="{{url('products-detail')}}">
                     <div class="ratio ratio-1x1 mb-3">
                       <div class="content-overlay"></div>
                       <img src="images/products/pd04.png">
@@ -108,7 +108,7 @@ NAYA GREEN - ผลิตภัณฑ์
               </div>
               <div class="col-md-6 col-lg-3">
                 <div class="product-box mb-5">
-                  <a href="product-detail.php">
+                  <a href="{{url('products-detail')}}">
                     <div class="ratio ratio-1x1 mb-3">
                       <div class="content-overlay"></div>
                       <img src="images/products/pd05.png">
@@ -122,7 +122,7 @@ NAYA GREEN - ผลิตภัณฑ์
               </div>
               <div class="col-md-6 col-lg-3">
                 <div class="product-box mb-5">
-                  <a href="product-detail.php">
+                  <a href="{{url('products-detail')}}">
                     <div class="ratio ratio-1x1 mb-3">
                       <div class="content-overlay"></div>
                       <img src="images/products/pd06.png">
@@ -136,7 +136,7 @@ NAYA GREEN - ผลิตภัณฑ์
               </div>
               <div class="col-md-6 col-lg-3">
                 <div class="product-box mb-5">
-                  <a href="product-detail.php">
+                  <a href="{{url('products-detail')}}">
                     <div class="ratio ratio-1x1 mb-3">
                       <div class="content-overlay"></div>
                       <img src="images/products/pd07.png">
@@ -150,7 +150,7 @@ NAYA GREEN - ผลิตภัณฑ์
               </div>
               <div class="col-md-6 col-lg-3">
                 <div class="product-box mb-5">
-                  <a href="product-detail.php">
+                  <a href="{{url('products-detail')}}">
                     <div class="ratio ratio-1x1 mb-3">
                       <div class="content-overlay"></div>
                       <img src="images/products/pd08.png">
@@ -164,7 +164,7 @@ NAYA GREEN - ผลิตภัณฑ์
               </div>
               <div class="col-md-6 col-lg-3">
                 <div class="product-box mb-5">
-                  <a href="product-detail.php">
+                  <a href="{{url('products-detail')}}">
                     <div class="ratio ratio-1x1 mb-3">
                       <div class="content-overlay"></div>
                       <img src="images/products/pd09.png">
@@ -188,7 +188,7 @@ NAYA GREEN - ผลิตภัณฑ์
             <div class="row justify-content-center">
               <div class="col-md-6 col-lg-3">
                 <div class="product-box mb-5">
-                  <a href="product-detail.php">
+                  <a href="{{url('products-detail')}}">
                     <div class="ratio ratio-1x1 mb-3">
                       <div class="content-overlay"></div>
                       <img src="images/products/pd10.png">
@@ -202,7 +202,7 @@ NAYA GREEN - ผลิตภัณฑ์
               </div>
               <div class="col-md-6 col-lg-3">
                 <div class="product-box mb-5">
-                  <a href="product-detail.php">
+                  <a href="{{url('products-detail')}}">
                     <div class="ratio ratio-1x1 mb-3">
                       <div class="content-overlay"></div>
                       <img src="images/products/pd11.png">
@@ -216,7 +216,7 @@ NAYA GREEN - ผลิตภัณฑ์
               </div>
               <div class="col-md-6 col-lg-3">
                 <div class="product-box mb-5">
-                  <a href="product-detail.php">
+                  <a href="{{url('products-detail')}}">
                     <div class="ratio ratio-1x1 mb-3">
                       <div class="content-overlay"></div>
                       <img src="images/products/pd12.png">
@@ -230,7 +230,7 @@ NAYA GREEN - ผลิตภัณฑ์
               </div>
               <div class="col-md-6 col-lg-3">
                 <div class="product-box mb-5">
-                  <a href="product-detail.php">
+                  <a href="{{url('products-detail')}}">
                     <div class="ratio ratio-1x1 mb-3">
                       <div class="content-overlay"></div>
                       <img src="images/products/pd13.png">
@@ -244,7 +244,7 @@ NAYA GREEN - ผลิตภัณฑ์
               </div>
               <div class="col-md-6 col-lg-3">
                 <div class="product-box mb-5">
-                  <a href="product-detail.php">
+                  <a href="{{url('products-detail')}}">
                     <div class="ratio ratio-1x1 mb-3">
                       <div class="content-overlay"></div>
                       <img src="images/products/pd14.png">
@@ -258,7 +258,7 @@ NAYA GREEN - ผลิตภัณฑ์
               </div>
               <div class="col-md-6 col-lg-3">
                 <div class="product-box mb-5">
-                  <a href="product-detail.php">
+                  <a href="{{url('products-detail')}}">
                     <div class="ratio ratio-1x1 mb-3">
                       <div class="content-overlay"></div>
                       <img src="images/products/pd15.png">
@@ -282,7 +282,7 @@ NAYA GREEN - ผลิตภัณฑ์
             <div class="row justify-content-center">
               <div class="col-md-6 col-lg-3">
                 <div class="product-box mb-5">
-                  <a href="product-detail.php">
+                  <a href="{{url('products-detail')}}">
                     <div class="ratio ratio-1x1 mb-3">
                       <div class="content-overlay"></div>
                       <img src="images/products/pd16.png">
