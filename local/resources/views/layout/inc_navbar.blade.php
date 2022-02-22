@@ -9,7 +9,7 @@
                 <a class="nav-link" href="#"><i class="fab fa-line"></i></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fab fa-youtube"></i></a>
+                <a class="nav-link" href="https://www.youtube.com/channel/UCd7WZY2PdXvcKtKstzBopAg/featured"><i class="fab fa-youtube"></i></a>
               </li>   
             </ul>
             <ul class="nav float-end">
@@ -28,7 +28,7 @@
 </header>
 <nav class="navbar navbar-expand-sm sticky-top navbar-light bg-white">
     <div class="container container-main">
-        <a class="navbar-brand" href="{{url('/')}}"><img src="images/logo.png" alt=""></a>
+        <a class="navbar-brand" href="{{url('/')}}"><img src="{{asset ('images/logo.png')}}" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -41,7 +41,7 @@
               <a class="nav-link" href="{{url('about')}}">เกี่ยวกับเรา</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{url('news')}}">ข่าวสารและโปรโมชั่น</a>
+              <a class="nav-link" href="{{url('news/info')}}">ข่าวสารและโปรโมชั่น</a>
             </li> 
             <li class="nav-item">
               <a class="nav-link" href="{{url('products')}}">ผลิตภัณฑ์</a>

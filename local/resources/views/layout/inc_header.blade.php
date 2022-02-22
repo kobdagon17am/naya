@@ -9,12 +9,12 @@
     <meta name='designer' content='Kamonwan B.'>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <link type="image/ico" rel="icon" href="images/fav-icon.png">
+    <link type="image/ico" rel="icon" href="{{asset ('images/fav-icon.png')}}">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="{{asset ('css/style.css')}}">
+    <link rel="stylesheet" href="{{asset ('css/animate.css')}}">
 
     <!--JS-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
@@ -27,7 +27,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Mitr:wght@300;400;500;600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!--ICON-->
-    <link rel="stylesheet" href="fontawesome/all.min.css">
+    <link rel="stylesheet" href="{{asset ('fontawesome/all.min.css')}}">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!--FANCY APP-->
@@ -35,12 +35,12 @@
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
 
     <!--Owl Carousel-->
-    <link rel="stylesheet" href="owlcarousel/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/css/owl.theme.default.min.css">
-    <script src="owlcarousel/js/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="{{asset ('owlcarousel/css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{asset ('owlcarousel/css/owl.theme.default.min.css')}}">
+    <script src="{{asset ('owlcarousel/js/owl.carousel.min.js')}}"></script>
 
     <!--Animation-->
-    <script src="js/wow.min.js"></script>
+    <script src="{{asset ('js/wow.min.js')}}"></script>
     <script>
         new WOW().init();
     </script>

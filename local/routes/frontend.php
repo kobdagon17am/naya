@@ -1,3 +1,4 @@
+
 <?php
 
 use App\Http\Controllers\frontend\HomeController;
@@ -20,20 +21,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Auth::routes();
+
 Route::get('/', function () {
     return view('welcome');
 });
 
 // Route::get('/home', 'HomeController@index');
-Route::get('/',[HomeController::class, 'index']);
-Route::get('/about',[AboutController::class, 'index']);
-Route::get('/news',[NewsController::class, 'index']);
-Route::get('/news-detail',[NewsController::class, 'detail']);
-Route::get('/products',[ProductController::class, 'index']);
-Route::get('/products-detail',[ProductController::class, 'detail']);
-Route::get('/opportunity',[OpportunityController::class, 'index']);
-Route::get('/office',[OfficeController::class, 'index']);
-Route::get('/hallofframe',[HallofframeController::class, 'index']);
-
-
-
+Route::get('', [HomeController::class, 'index']);
+Route::get('/about', [AboutController::class, 'index']);
+Route::get('/news/info', [NewsController::class, 'index']);
+Route::get('/news/promotion', [NewsController::class, 'promotion']);
+Route::get('/news/ac_picture', [NewsController::class, 'ac_picture']);
+Route::get('/news-detail/{id}', [NewsController::class, 'detail']);
+Route::get('/products', [ProductController::class, 'index']);
+Route::get('/products-detail/{id}', [ProductController::class, 'detail']);
+Route::get('/opportunity', [OpportunityController::class, 'index']);
+Route::get('/office', [OfficeController::class, 'index']);
+Route::get('/hallofframe', [HallofframeController::class, 'index']);
