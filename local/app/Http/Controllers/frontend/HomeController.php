@@ -11,6 +11,7 @@ use App\product_details;
 use App\product_key_ingredient;
 use App\product_how_to_eat;
 use App\product_warning;
+use App\news;
 use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
@@ -38,7 +39,7 @@ class HomeController extends Controller
                 'product_how_to_eats.detail_product_how',
                 'product_warnings.detail_product_warnings'
             )
-            ->where('product_types.id', '1')->paginate(8);
+            ->where('product_types.id', '1')->limit(4)->get();
 
         $product_2 = DB::table('products')
             ->join('product_types', 'product_types.id', 'products.product_type_id')
@@ -54,7 +55,7 @@ class HomeController extends Controller
                 'product_how_to_eats.detail_product_how',
                 'product_warnings.detail_product_warnings'
             )
-            ->where('product_types.id', '2')->paginate(8);
+            ->where('product_types.id', '2')->limit(4)->get();
 
         $product_3 = DB::table('products')
             ->join('product_types', 'product_types.id', 'products.product_type_id')
@@ -70,13 +71,47 @@ class HomeController extends Controller
                 'product_how_to_eats.detail_product_how',
                 'product_warnings.detail_product_warnings'
             )
-            ->where('product_types.id', '3')->paginate(8);
+            ->where('product_types.id', '3')->limit(4)->get();
+
+        $news_1 = DB::table('news')
+            ->join('new_types', 'new_types.id', 'news.new_type_id')
+            ->select(
+                'new_types.new_type_name',
+                'news.*'
+            )
+            ->where('new_types.id', '1')
+            ->orderBy('news.new_date', 'desc')
+            ->limit(1)->get();
+
+        $news_2 = DB::table('news')
+            ->join('new_types', 'new_types.id', 'news.new_type_id')
+            ->select(
+                'new_types.new_type_name',
+                'news.*'
+            )
+            ->where('new_types.id', '2')
+            ->orderBy('news.new_date', 'desc')
+            ->limit(1)->get();
+
+        $news_3 = DB::table('news')
+            ->join('new_types', 'new_types.id', 'news.new_type_id')
+            ->select(
+                'new_types.new_type_name',
+                'news.*'
+            )
+            ->where('new_types.id', '3')
+            ->orderBy('news.new_date', 'desc')
+            ->limit(1)->get();
+
         $data = array(
             'banner' => $banner,
             'product_type' => $product_type,
             'product_1' => $product_1,
             'product_2' => $product_2,
-            'product_3' => $product_3
+            'product_3' => $product_3,
+            'news_1' => $news_1,
+            'news_2' => $news_2,
+            'news_3' => $news_3
         );
         return view('frontend.index', $data);
     }

@@ -77,152 +77,74 @@ NAYA GREEN - หน้าหลัก
                         <div class="container text-center">
                             <p>{!! isset($product_type) ? $product_type[0]->detail : '' !!}</p>
                         </div>
-                        <div class="row">
+                        <div class="row justify-content-center">
+                            @foreach($product_1 as $item => $value)
                             <div class="col-md-6 col-lg-3">
                                 <div class="product-box mb-3">
-                                    <a href="product-detail.php">
+                                    <a href="{{ url('products-detail') }}/{{ $value->id }}">
                                         <div class="ratio ratio-1x1 mb-3">
                                             <div class="content-overlay"></div>
-                                            <img src="images/products/pd01.png">
+                                            <img src="{{ isset($value->product_pics) ? asset('local/public/upload/product/'.$value->product_pics) : '' }}">
                                             <div class="content-details fadeIn-bottom">
                                                 <p class="content-text">ดูเพิ่มเติม</p>
                                             </div>
                                         </div>
-                                        <h5 class="text-black">นายา เซซามีน</h5>
+                                        <h5 class="text-black">{{ isset($value) ? $value->product_name_th : '' }}</h5>
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-lg-3">
-                                <div class="product-box mb-3">
-                                    <a href="product-detail.php">
-                                        <div class="ratio ratio-1x1 mb-3">
-                                            <div class="content-overlay"></div>
-                                            <img src="images/products/pd02.png">
-                                            <div class="content-details fadeIn-bottom">
-                                                <p class="content-text">ดูเพิ่มเติม</p>
-                                            </div>
-                                        </div>
-                                        <h5 class="text-black">นายา เซซามีน พลัส 3 งา</h5>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-3">
-                                <div class="product-box mb-3">
-                                    <a href="product-detail.php">
-                                        <div class="ratio ratio-1x1 mb-3">
-                                            <div class="content-overlay"></div>
-                                            <img src="images/products/pd03.png">
-                                            <div class="content-details fadeIn-bottom">
-                                                <p class="content-text">ดูเพิ่มเติม</p>
-                                            </div>
-                                        </div>
-                                        <h5 class="text-black">นาลิซ่า</h5>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-3">
-                                <div class="product-box mb-3">
-                                    <a href="product-detail.php">
-                                        <div class="ratio ratio-1x1 mb-3">
-                                            <div class="content-overlay"></div>
-                                            <img src="images/products/pd04.png">
-                                            <div class="content-details fadeIn-bottom">
-                                                <p class="content-text">ดูเพิ่มเติม</p>
-                                            </div>
-                                        </div>
-                                        <h5 class="text-black">กาแฟ 3เอส ค๊อฟฟี่ พลัส</h5>
-                                    </a>
-                                </div>
-                            </div>
+                            @endforeach
                         </div>
                     </div>
                     <div class="tab-pane fade" id="pills-homeUse" role="tabpanel" aria-labelledby="pills-homeUse-tab">
                         <div class="container text-center">
                             <p>{!! isset($product_type) ? $product_type[1]->detail : '' !!}</p>
                         </div>
-                        <div class="row">
+                        <div class="row justify-content-center">
+                            @foreach($product_2 as $item => $value)
                             <div class="col-md-6 col-lg-3">
                                 <div class="product-box mb-5">
-                                    <a href="product-detail.php">
+                                    <a href="{{ url('products-detail') }}/{{ $value->id }}">
                                         <div class="ratio ratio-1x1 mb-3">
                                             <div class="content-overlay"></div>
-                                            <img src="images/products/pd10.png">
+                                            <img src="{{ isset($value->product_pics) ? asset('local/public/upload/product/'.$value->product_pics) : '' }}">
                                             <div class="content-details fadeIn-bottom">
-                                                <p class="content-text">ดูเพิ่มเติม</p>
+                                                <p class="content-text">ดูรายละเอียด</p>
                                             </div>
                                         </div>
-                                        <h5 class="text-black">นาย่า เฮิร์บ</h5>
+                                        <h5 class="text-black">{{ isset($value) ? $value->product_name_th : '' }}</h5>
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-lg-3">
-                                <div class="product-box mb-5">
-                                    <a href="product-detail.php">
-                                        <div class="ratio ratio-1x1 mb-3">
-                                            <div class="content-overlay"></div>
-                                            <img src="images/products/pd11.png">
-                                            <div class="content-details fadeIn-bottom">
-                                                <p class="content-text">ดูเพิ่มเติม</p>
-                                            </div>
-                                        </div>
-                                        <h5 class="text-black">เฮอเบิล เคลียร โซป</h5>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-3">
-                                <div class="product-box mb-5">
-                                    <a href="product-detail.php">
-                                        <div class="ratio ratio-1x1 mb-3">
-                                            <div class="content-overlay"></div>
-                                            <img src="images/products/pd12.png">
-                                            <div class="content-details fadeIn-bottom">
-                                                <p class="content-text">ดูเพิ่มเติม</p>
-                                            </div>
-                                        </div>
-                                        <h5 class="text-black">นาย่า โซป สูตรมะขาม</h5>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-3">
-                                <div class="product-box mb-5">
-                                    <a href="product-detail.php">
-                                        <div class="ratio ratio-1x1 mb-3">
-                                            <div class="content-overlay"></div>
-                                            <img src="images/products/pd13.png">
-                                            <div class="content-details fadeIn-bottom">
-                                                <p class="content-text">ดูเพิ่มเติม</p>
-                                            </div>
-                                        </div>
-                                        <h5 class="text-black">นาย่า โซป สูตรคาวตอง</h5>
-                                    </a>
-                                </div>
-                            </div>
+                            @endforeach
                         </div>
                     </div>
                     <div class="tab-pane fade" id="pills-kased" role="tabpanel" aria-labelledby="pills-kased-tab">
                         <div class="container text-center">
                             <p>{!! isset($product_type) ? $product_type[2]->detail : '' !!}</p>
                         </div>
-                        <div class="row">
+                        <div class="row justify-content-center">
+                            @foreach($product_3 as $item => $value)
                             <div class="col-md-6 col-lg-3">
                                 <div class="product-box mb-5">
-                                    <a href="product-detail.php">
+                                    <a href="{{ url('products-detail') }}/{{ $value->id }}">
                                         <div class="ratio ratio-1x1 mb-3">
                                             <div class="content-overlay"></div>
-                                            <img src="images/products/pd16.png">
+                                            <img src="{{ isset($value->product_pics) ? asset('local/public/upload/product/'.$value->product_pics) : '' }}">
                                             <div class="content-details fadeIn-bottom">
-                                                <p class="content-text">ดูเพิ่มเติม</p>
+                                                <p class="content-text">ดูรายละเอียด</p>
                                             </div>
                                         </div>
-                                        <h5 class="text-black">นาย่า แอตโต้</h5>
+                                        <h5 class="text-black">{{ isset($value) ? $value->product_name_th : '' }}</h5>
                                     </a>
                                 </div>
                             </div>
+                            @endforeach
                         </div>
                     </div>
                 </div>
                 <div class="text-center">
-                    <a href="products.php" class="custom-btn btn-greenYb"><span>ดูเพิ่มเติม</span></a>
+                    <a href="{{url('products')}}" class="custom-btn btn-greenYb"><span>ดูเพิ่มเติม</span></a>
                 </div>
             </div>
         </div>
@@ -233,52 +155,163 @@ NAYA GREEN - หน้าหลัก
         <h1 class="fw-normal text-center fw-semibold">ข่าวสารล่าสุด</h1>
         <div class="lineY-center"></div>
         <div class="row marginBNewsH">
+            @foreach($news_1 as $item => $value)
+            @php
+            $con_date = date('d-m-Y', strtotime($value->new_date));
+            $ex_dmy = explode('-',$con_date);
+            $date = $ex_dmy[0];
+            $month = $ex_dmy[1];
+            if($month == '01'){
+            $month = 'มกราคม';
+            }elseif($month == '02'){
+            $month = 'กุมภาพันธ์';
+            }elseif($month == '03'){
+            $month = 'มีนาคม';
+            }elseif($month == '04'){
+            $month = 'เมษายน';
+            }elseif($month == '05'){
+            $month = 'พฤษภาคม';
+            }elseif($month == '06'){
+            $month = 'มิถุนายน';
+            }elseif($month == '07'){
+            $month = 'กรกฎาคม';
+            }elseif($month == '08'){
+            $month = 'สิงหาคม';
+            }elseif($month == '09'){
+            $month = 'กันยายน';
+            }elseif($month == '10'){
+            $month = 'ตุลาคม';
+            }elseif($month == '11'){
+            $month = 'พฤศจิกายน';
+            }elseif($month == '12'){
+            $month = 'ธันวาคม';
+            }else{
+            $month = '';
+            }
+            $year = substr($ex_dmy[2],0,4)+543;
+            @endphp
             <div class="col-sm-5">
                 <div class="box-newsHome mb-4">
                     <div class="ratio ratio-1x1">
-                        <img src="images/news/n01.png">
+                        <img src="{{ isset($value->new_pics) ? asset('local/public/upload/news/'.$value->new_pics) : '' }}">
                     </div>
                     <div class="dateN">
-                        <div class="line"></div> 11 กันยายน 2563
+                        <div class="line"></div>
+                        {{ $date . ' '.  $month . ' ' . $year}}
                     </div>
-                    <div class="titleNewsH newsHMain">โปรโมชั่นประจำเดือน ตุลาคม #NayaGreenPromotion</div>
-                    <div class="detailNewsH newsHMain">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui ut ornare lectus sit amet est placerat in. Nibh praesent tristique magna sit amet purus. Facilisis mauris sit amet massa. Suscipit tellus mauris a diam maecenas sed enim ut. </div>
-                    <a href="news-detail.php" class="stretched-link">อ่านเพิ่มเติม <div class="arrow-right"></div></a>
+                    <div class=" titleNewsH newsHMain">{{ isset($value) ? $value->title : '' }}
+                    </div>
+                    <div class="detailNewsH newsHMain">{{ isset($value) ? $value->new_detail_title : '' }}</div>
+                    <a href="{{ url('news-detail') }}/{{ $value->id }}" class="stretched-link">อ่านเพิ่มเติม <div class="arrow-right"></div></a>
                 </div>
             </div>
+            @endforeach
             <div class="col-sm-7">
                 <div class="box-newsHome mb-4">
                     <div class="row">
+                        @foreach($news_1 as $item => $value)
+                        @php
+                        $con_date = date('d-m-Y', strtotime($value->new_date));
+                        $ex_dmy = explode('-',$con_date);
+                        $date = $ex_dmy[0];
+                        $month = $ex_dmy[1];
+                        if($month == '01'){
+                        $month = 'มกราคม';
+                        }elseif($month == '02'){
+                        $month = 'กุมภาพันธ์';
+                        }elseif($month == '03'){
+                        $month = 'มีนาคม';
+                        }elseif($month == '04'){
+                        $month = 'เมษายน';
+                        }elseif($month == '05'){
+                        $month = 'พฤษภาคม';
+                        }elseif($month == '06'){
+                        $month = 'มิถุนายน';
+                        }elseif($month == '07'){
+                        $month = 'กรกฎาคม';
+                        }elseif($month == '08'){
+                        $month = 'สิงหาคม';
+                        }elseif($month == '09'){
+                        $month = 'กันยายน';
+                        }elseif($month == '10'){
+                        $month = 'ตุลาคม';
+                        }elseif($month == '11'){
+                        $month = 'พฤศจิกายน';
+                        }elseif($month == '12'){
+                        $month = 'ธันวาคม';
+                        }else{
+                        $month = '';
+                        }
+                        $year = substr($ex_dmy[2],0,4)+543;
+                        @endphp
                         <div class="col-sm-5">
                             <div class="ratio ratio-1x1">
-                                <img src="images/news/n02.png">
+                                <img src="{{ isset($value->new_pics) ? asset('local/public/upload/news/'.$value->new_pics) : '' }}">
                             </div>
                         </div>
                         <div class="col-sm-7">
                             <div class="dateN">
-                                <div class="line"></div> 1 กันยายน 2563
+                                <div class="line"></div>
+                                {{ $date . ' '.  $month . ' ' . $year}}
                             </div>
-                            <div class="titleNewsH">โปรโมชั่นประจำเดือน ตุลาคม #NayaGreenPromotion</div>
-                            <div class="detailNewsH">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui ut ornare lectus sit amet est placerat in. Nibh praesent tristique magna sit amet purus. Facilisis mauris sit amet massa. Suscipit tellus mauris a diam maecenas sed enim ut. </div>
-                            <a href="news-detail.php" class="stretched-link">อ่านเพิ่มเติม <div class="arrow-right"></div></a>
+                            <div class="titleNewsH">{{ isset($value) ? $value->title : '' }}</div>
+                            <div class="detailNewsH">{{ isset($value) ? $value->new_detail_title : '' }}</div>
+                            <a href="{{ url('news-detail') }}/{{ $value->id }}" class="stretched-link">อ่านเพิ่มเติม <div class="arrow-right"></div></a>
                         </div>
+                        @endforeach
                     </div>
                 </div>
                 <div class="box-newsHome mb-3">
                     <div class="row">
+                        @foreach($news_1 as $item => $value)
+                        @php
+                        $con_date = date('d-m-Y', strtotime($value->new_date));
+                        $ex_dmy = explode('-',$con_date);
+                        $date = $ex_dmy[0];
+                        $month = $ex_dmy[1];
+                        if($month == '01'){
+                        $month = 'มกราคม';
+                        }elseif($month == '02'){
+                        $month = 'กุมภาพันธ์';
+                        }elseif($month == '03'){
+                        $month = 'มีนาคม';
+                        }elseif($month == '04'){
+                        $month = 'เมษายน';
+                        }elseif($month == '05'){
+                        $month = 'พฤษภาคม';
+                        }elseif($month == '06'){
+                        $month = 'มิถุนายน';
+                        }elseif($month == '07'){
+                        $month = 'กรกฎาคม';
+                        }elseif($month == '08'){
+                        $month = 'สิงหาคม';
+                        }elseif($month == '09'){
+                        $month = 'กันยายน';
+                        }elseif($month == '10'){
+                        $month = 'ตุลาคม';
+                        }elseif($month == '11'){
+                        $month = 'พฤศจิกายน';
+                        }elseif($month == '12'){
+                        $month = 'ธันวาคม';
+                        }else{
+                        $month = '';
+                        }
+                        $year = substr($ex_dmy[2],0,4)+543;
+                        @endphp
                         <div class="col-sm-5">
                             <div class="ratio ratio-1x1">
-                                <img src="images/news/n02.png">
+                                <img src="{{ isset($value->new_pics) ? asset('local/public/upload/news/'.$value->new_pics) : '' }}">
                             </div>
                         </div>
                         <div class="col-sm-7">
                             <div class="dateN">
-                                <div class="line"></div> 17 สิงหาคม 2563
+                                <div class="line"></div>{{ $date . ' '.  $month . ' ' . $year}}
                             </div>
-                            <div class="titleNewsH">โปรโมชั่นประจำเดือน ตุลาคม #NayaGreenPromotion</div>
-                            <div class="detailNewsH">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui ut ornare lectus sit amet est placerat in. Nibh praesent tristique magna sit amet purus. Facilisis mauris sit amet massa. Suscipit tellus mauris a diam maecenas sed enim ut. </div>
-                            <a href="news-detail.php" class="stretched-link">อ่านเพิ่มเติม <div class="arrow-right"></div></a>
+                            <div class="titleNewsH">{{ isset($value) ? $value->title : '' }}</div>
+                            <div class="detailNewsH">{{ isset($value) ? $value->new_detail_title : '' }}</div>
+                            <a href="{{ url('news-detail') }}/{{ $value->id }}" class="stretched-link">อ่านเพิ่มเติม <div class="arrow-right"></div></a>
                         </div>
+                        @endforeach
                     </div>
                 </div>
             </div>
@@ -322,7 +355,7 @@ NAYA GREEN - หน้าหลัก
                             <a href=""><i class="fab fa-line fa-lg"></i></a>
                         </div>
                         <div class="col-4 text-center">
-                            <a href=""><i class="fab fa-youtube fa-lg"></i></a>
+                            <a href="https://www.youtube.com/channel/UCd7WZY2PdXvcKtKstzBopAg/featured"><i class="fab fa-youtube fa-lg"></i></a>
                         </div>
                     </div>
                 </div>

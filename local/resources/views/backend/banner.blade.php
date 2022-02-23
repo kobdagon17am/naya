@@ -13,6 +13,7 @@ NAYA GREEN
 @endsection
 
 @section('style_back')
+
 @endsection
 
 @section('mainbody_back')
@@ -113,7 +114,7 @@ NAYA GREEN
 
                     <div class="row">
                         <div class="col-md-12">
-                            <button type="submit" id="submit" class="btn btn-success form-control">{{ isset($banner) ? 'Update' : 'Save'}}</button>
+                            <button type="submit" id="submit" class="btn btn-success form-control" style="width: 110px; margin-left: auto; margin-right: auto; display: block;">{{ isset($banner) ? 'Update' : 'Save'}}</button>
                         </div>
                     </div>
                 </div>
@@ -144,12 +145,12 @@ NAYA GREEN
                             </div>
                         </div>
                     </div>
-                    <input type="text" name="show_id" id="show_id">
+                    <input type="hidden" name="show_id" id="show_id">
                     {{-- <input type="hidden" name="show_pic" id="show_pic"> --}}
 
                     <div class="row">
                         <div class="col-md-12">
-                            <button type="submit" id="submit" class="btn btn-success form-control">Save</button>
+                            <button type="submit" id="submit" class="btn btn-success form-control" style="width: 110px; margin-left: auto; margin-right: auto; display: block;">Save</button>
                         </div>
                     </div>
                 </div>

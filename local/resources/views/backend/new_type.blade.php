@@ -99,7 +99,7 @@ NAYA GREEN
                     </div>
                     <div class="row">
                         <div class="col-md-12">
-                            <button type="submit" id="submit" class="form-control btn btn-primary">Save</button>
+                            <button type="submit" id="submit" class="form-control btn btn-primary" style="width: 110px; margin-left: auto; margin-right: auto; display: block;">Save</button>
                         </div>
                     </div>
                     {{ Form::close() }}

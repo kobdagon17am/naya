@@ -85,7 +85,7 @@ NAYA GREEN
 
                     <div class="row">
                         <div class="col-md-12">
-                            <button type="submit" id="submit" class="btn btn-success form-control">{{ isset($banner) ? 'Update' : 'Save'}}</button>
+                            <button type="submit" id="submit" class="btn btn-success form-control" style="width: 110px; margin-left: auto; margin-right: auto; display: block;">{{ isset($banner) ? 'Update' : 'Save'}}</button>
                         </div>
                     </div>
                 </div>

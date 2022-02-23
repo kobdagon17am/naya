@@ -6,6 +6,11 @@
     <title>@yield('title_back')</title>
     @yield('styles_link')
     @yield('style_back')
+    <style>
+        .pcoded .pcoded-header[header-theme="themelight5"]{
+            background: linear-gradient(to right, green, green);
+        }
+    </style>
 </head>
 
 <body class="fix-menu">

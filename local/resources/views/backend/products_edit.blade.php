@@ -174,7 +174,7 @@ NAYA GREEN
                     </div>
                     <div class="row">
                         <div class="col-md-12">
-                            <button type="submit" id="submit" class="form-control btn btn-primary">Update</button>
+                            <button type="submit" id="submit" class="form-control btn btn-primary" style="width: 110px; margin-left: auto; margin-right: auto; display: block;">Update</button>
                         </div>
                     </div>
                 </div>
