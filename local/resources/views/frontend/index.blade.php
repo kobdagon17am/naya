@@ -7,6 +7,7 @@ NAYA GREEN - หน้าหลัก
 @endsection
 
 @section('mainbody')
+
 <div class="">
     <div class="container-fluid">
         <div class="row">
@@ -26,6 +27,7 @@ NAYA GREEN - หน้าหลัก
         </div>
     </div>
 </div>
+
 <div class="">
     <div class="container container-main py-4 py-xl-5">
         <div class="row">
@@ -72,6 +74,7 @@ NAYA GREEN - หน้าหลัก
                         <button class="nav-link" id="pills-kased-tab" data-bs-toggle="pill" data-bs-target="#pills-kased" type="button" role="tab" aria-controls="pills-kased" aria-selected="false">Naya Green Kased</button>
                     </li>
                 </ul>
+
                 <div class="tab-content" id="pills-tabContent">
                     <div class="tab-pane fade show active" id="pills-healthy" role="tabpanel" aria-labelledby="pills-healthy-tab">
                         <div class="container text-center">
@@ -143,6 +146,7 @@ NAYA GREEN - หน้าหลัก
                         </div>
                     </div>
                 </div>
+
                 <div class="text-center">
                     <a href="{{url('products')}}" class="custom-btn btn-greenYb"><span>ดูเพิ่มเติม</span></a>
                 </div>
