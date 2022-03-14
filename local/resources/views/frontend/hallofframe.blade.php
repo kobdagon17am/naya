@@ -14,7 +14,7 @@ NAYA GREEN - ทำเนียบผู้นำ
                 <h1>ทำเนียบผู้นำ</h1>
                 <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center mb-0">
-                        <li class="breadcrumb-item"><a href="index.php">หน้าหลัก</a></li>
+                        <li class="breadcrumb-item"><a href="{{url('/')}}">หน้าหลัก</a></li>
                         <li class="breadcrumb-item active" aria-current="page">ทำเนียบผู้นำ</li>
                     </ol>
                 </nav>

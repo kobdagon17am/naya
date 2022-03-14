@@ -14,7 +14,7 @@ NAYA GREEN - โอกาสทางธุรกิจ
         <h1>โอกาสทางธุรกิจ</h1>
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
           <ol class="breadcrumb justify-content-center mb-0">
-            <li class="breadcrumb-item"><a href="index.php">หน้าหลัก</a></li>
+            <li class="breadcrumb-item"><a href="{{url('/')}}">หน้าหลัก</a></li>
             <li class="breadcrumb-item active" aria-current="page">โอกาสทางธุรกิจ</li>
           </ol>
         </nav>
